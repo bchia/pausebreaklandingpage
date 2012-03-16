@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+a.brand {
+  padding: 2px 20px 2px 0px !important;
+  margin: 0 !important;
+}
+
 body {
   position: relative;
   background-color: #fff;
@@ -12,9 +17,9 @@ body {
   padding-bottom: 40px;
 }
 
-a.brand {
-  padding: 2px 20px 2px 0px !important;
-  margin: 0 !important;
+.logo img {
+  //float: left;
+  //margin-right: 20px;
 }
 
 @import "bootstrap";
@@ -25,6 +30,7 @@ textarea {
 }
 
 #logoblock {
+  margin-top:50px;
   img {
     height: 100%;
     margin: 10px 20px;
